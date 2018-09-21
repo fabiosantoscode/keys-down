@@ -8,14 +8,14 @@ Check what keys are down with a simple API
 npm install node-keys-down
 ```
 
-## require('keys-down').start()
+## require('node-keys-down').start()
 
 Start detecting keyboard activity. Call this method before the others.
 
 It returns a function that ends detecting keyboard activity.
 
 ```javascript
-const keysDown = require('keys-down')
+const keysDown = require('node-keys-down')
 const end = keysDown.start()
 
 // ... your code
@@ -23,12 +23,12 @@ const end = keysDown.start()
 end()
 ```
 
-## require('keys-down').isPressed(key)
+## require('node-keys-down').isPressed(key)
 
 Returns `true` if `key` is pressed. The key code looks like [what you might see in `event.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values).
 
 ```javascript
-const keysDown = require('keys-down')
+const keysDown = require('node-keys-down')
 keysDown.start()
 
 // ...
@@ -39,13 +39,13 @@ const playerShooting = keysDown.isPressed(' ')
 const playerUsing = keyDown.isPressed('e') || keysDown.isPressed('E')
 ```
 
-## require('keys-down').keysPressed()
+## require('node-keys-down').keysPressed()
 
 Returns an array with the names of all keys which are currently pressed.
 
 
 ```javascript
-const keysDown = require('keys-down')
+const keysDown = require('node-keys-down')
 keysDown.start()
 
 // ...
