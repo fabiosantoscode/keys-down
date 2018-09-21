@@ -1,0 +1,26 @@
+{
+  "name": "keys-down",
+  "version": "1.0.0",
+  "description": "Check what keys are down with a simple API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "budo example -l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiosantoscode/keys-down.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiosantoscode/keys-down/issues"
+  },
+  "homepage": "https://github.com/fabiosantoscode/keys-down#readme",
+  "dependencies": {
+    "keyboard-key": "^1.0.2"
+  },
+  "devDependencies": {
+    "budo": "^11.3.2"
+  }
+}
