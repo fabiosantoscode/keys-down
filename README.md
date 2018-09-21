@@ -2,6 +2,12 @@
 
 Check what keys are down with a simple API
 
+## installation
+
+```bash
+npm install node-keys-down
+```
+
 ## require('keys-down').start()
 
 Start detecting keyboard activity. Call this method before the others.

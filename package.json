@@ -1,5 +1,5 @@
 {
-  "name": "keys-down",
+  "name": "node-keys-down",
   "version": "1.0.0",
   "description": "Check what keys are down with a simple API",
   "main": "lib/index.js",
