@@ -1,6 +1,6 @@
 {
   "name": "node-keys-down",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check what keys are down with a simple API",
   "main": "lib/index.js",
   "scripts": {
